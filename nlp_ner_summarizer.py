@@ -1,5 +1,5 @@
 import streamlit as st
-import spacy 
+import spacy
 import spacy_streamlit
 from spacy import displacy
 from gensim.summarization import summarize
