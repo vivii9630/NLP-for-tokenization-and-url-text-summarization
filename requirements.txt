@@ -1,0 +1,6 @@
+spacy==3.0.5
+spacy_streamlit==1.0.0
+gensim==3.8.3
+streamlit==0.79.0
+sumy==0.8.1
+beautifulsoup4==4.9.3
