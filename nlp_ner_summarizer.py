@@ -1,3 +1,5 @@
+import en_core_web_sm
+nlp = en_core_web_sm.load()
 import streamlit as st
 import spacy 
 import spacy_streamlit
@@ -10,8 +12,7 @@ from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 
-nlp = spacy.load('en_core_web_sm')
-
+#
 def nam_ent(text):
     return nlp(text)
 
